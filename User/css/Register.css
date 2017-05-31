@@ -1,0 +1,32 @@
+﻿/**
+    内容部分
+    */
+.line {
+    width:50%;
+    margin:30px auto;
+    line-height:inherit;
+    font-size:14px;
+}
+
+    .line .LabelTxt {
+        width:20%;
+        display:inline-block;
+    }
+    .line .textBox {
+        width:40%;
+        height:20px;
+    }
+    .line .prompt {
+        width:40%;
+    }
+
+.line .btnRegister {
+    padding:10px 0;
+    width:40%;
+    background-color:#FF4400;
+    color:#ffffff;
+    margin-left:12%;
+}
+.line .btnReset {
+    margin-left:10%;
+}

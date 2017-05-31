@@ -1,0 +1,35 @@
+﻿/*中间内容*/
+.goodCart {
+    margin-top:20px;
+    width:100%;
+    background-color:#FFF;
+}
+
+.line {
+    height:40px;
+    line-height:40px;
+    margin:0 20px;
+    float:left;
+}
+.line_left {
+    height:40px;
+    line-height:40px;
+    float:left;
+    margin-left:20px;
+}
+.line_right {
+    height:40px;
+    line-height:40px;
+    float:right;
+}
+.Num {
+    width:30px;
+    border:1px solid #c5c5c5;
+    text-align:center;
+}
+/*结算按钮*/
+.Settlement {
+    padding:10px 20px;
+    background-color:#FF4400;
+    color:#ffffff;
+}

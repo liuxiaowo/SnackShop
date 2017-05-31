@@ -1,0 +1,10 @@
+﻿a{color:#35BFFF;text-decoration:none;}
+a:hover, a:active{color:#91DCFF;}
+
+/* wrapper */
+#wrapper{margin-top:10px;width:107%;}
+#container{position:relative;width:100%;margin:0 auto 25px;padding-bottom:10px;}
+.grid{width:188px;min-height:100px;padding:15px;background:#fff;font-size:12px;float:left;box-shadow:0 1px 3px rgba(34,25,25,0.4);-moz-box-shadow:0 1px 3px rgba(34,25,25,0.4);-webkit-box-shadow:0 1px 3px rgba(34,25,25,0.4);-webkit-transition:top 1s ease, left 1s ease;-moz-transition:top 1s ease, left 1s ease;-o-transition:top 1s ease, left 1s ease;-ms-transition:top 1s ease, left 1s ease;margin:5px 0;}
+.grid strong{border-bottom:1px solid #ccc;margin:10px 0;display:block;padding:0 0 5px;font-size:17px;}
+.grid .meta{text-align:right;color:#777;font-style:italic;}
+.grid .imgholder img{max-width:100%;background:#ccc;display:block;background:url(./images/loding.gif) no-repeat center;}

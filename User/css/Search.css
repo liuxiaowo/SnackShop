@@ -1,0 +1,40 @@
+﻿.title h1 {
+    display:inline-block;
+}
+.DropDownList {
+  width:12%;
+  height: 30px;
+  border: 2px solid #FF4400;
+  border-radius: 3px 0 0 3px;
+  outline: none;
+  display:inline-block;
+  margin-right:-8px;
+  margin-left:70px;
+}
+.searchBox {
+  width: 35%;
+  height: 30px;
+  padding-left: 10px;
+  border: 2px solid #FF4400;
+  border-radius: 0;
+  outline: none;
+  display:inline-block;
+}
+.searchbtn {
+  width: 10%;
+  height: 30px;
+  border: none;
+  background: #FF4400;
+  border-radius: 0 3px 3px 0;
+  cursor: pointer;
+  padding:0 10px;
+  display:inline-block;
+  color:#ffffff;
+  margin-left:-8px;
+}
+.searchbtn:before {
+  content: "\f002";
+  font-family: FontAwesome;
+  font-size: 14px;
+  color: #F9F0DA;
+}

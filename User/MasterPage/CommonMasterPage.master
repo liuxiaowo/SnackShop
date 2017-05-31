@@ -1,0 +1,27 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="CommonMasterPage.master.cs" Inherits="User_MasterPage_CommonMasterPage" %>
+
+<%@ Register Src="../UserControl/Bottom.ascx" TagName="bottom" TagPrefix="uc2" %>
+<%@ Register Src="../UserControl/Menu.ascx" TagName="menu" TagPrefix="uc1" %>
+<%@ Register Src="../UserControl/Search.ascx" TagName="menu" TagPrefix="uc3" %>
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" href="./css/Common.css" type="text/css" />
+    <title>主页</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server" class="container">
+        <div>
+            <uc1:menu ID="Menu" runat="server"/>
+            <uc3:menu ID="Search" runat="server"/>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolderCommon" runat="server">
+            </asp:ContentPlaceHolder>
+            <uc2:bottom ID="Bottom" runat="server"/>
+        </div>
+    </form>
+</body>
+</html>

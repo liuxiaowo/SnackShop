@@ -1,0 +1,30 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="IndexMasterPage.master.cs" Inherits="User_MasterPage_IndexMasterPage" %>
+<%@ Register Src="../UserControl/Bottom.ascx" TagName="bottom" TagPrefix="uc2" %>
+<%@ Register Src="../UserControl/Menu.ascx" TagName="menu" TagPrefix="uc1" %>
+<%@ Register Src="../UserControl/Search.ascx" TagName="search" TagPrefix="uc3" %>
+<%@ Register Src="../UserControl/List.ascx" TagName="list" TagPrefix="uc4" %>
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" href="../css/Common.css" type="text/css" />
+    <title>主页</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="container">
+            <uc1:menu ID="Menu" runat="server"/>
+            <uc3:search ID="Search" runat="server" />
+            <uc4:list ID="List" runat="server"/>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+
+            </asp:ContentPlaceHolder>
+            <uc2:bottom ID="Bottom" runat="server"/>
+        </div>
+    </form>
+</body>
+</html>
+

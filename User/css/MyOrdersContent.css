@@ -1,0 +1,19 @@
+﻿/*中间内容*/
+.contentGoodDetails {
+    margin-top:20px;
+    width:100%;
+    background:#fff;
+    padding:20px;
+}
+.line {
+    height:40px;
+    line-height:40px;
+    width:100%;
+}
+.line_right {
+    height:40px;
+    line-height:40px;
+    float:right;
+    width:100%;
+    background:#fff;
+}

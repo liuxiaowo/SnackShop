@@ -1,0 +1,47 @@
+﻿/**
+    登录界面公共样式
+    */
+*{
+    margin:0;
+    padding:0;
+}
+body {
+    background-color:rgba(244, 241, 241, 0.70);
+}
+.container {
+    width:60%;
+    height:80%;
+    margin:50px auto;
+}
+
+/**
+    title部分
+    */
+.title h1{
+    color:#FF4400;
+    display:inline-block;
+}
+.title a {
+    float:right;
+    font-size:14px;
+    margin-top:3%;
+}
+
+/**
+    内容部分
+    */
+.div_container {
+    background-color:#ffffff;
+    padding:30px 50px;
+    margin-top:10px;
+    height:80%;
+}
+
+/**
+    底部部分
+    */
+.bottom {
+    margin-top:50px;
+    text-align:center;
+    font-size:14px;
+}

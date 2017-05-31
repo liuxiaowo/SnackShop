@@ -1,0 +1,16 @@
+﻿.left {
+    display:inline-block;
+    padding:5px;
+    margin-left:-34%;
+}
+
+.right {
+    float:right;
+    padding:5px;
+    margin-right:-34%;
+}
+
+.exit {
+    margin-left:5px;
+}
+

@@ -1,0 +1,54 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="CommonMasterPage.master.cs" Inherits="User_MasterPage_CommonMasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" href="../css/Common.css" type="text/css" />
+    <title>管理中心</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server" class="container">
+        <div class="div_container">
+            <div>
+                <div class="title">
+                    <h1>零食铺子管理中心</h1>
+                </div>
+                <table style="float: right; margin-top: 5px;">
+                    <tr>
+                        <td>
+                            <img src="./images/admin.png" />
+                            您好！<asp:Label ID="AdminName" runat="server" Text="admin" Style="color: #f00" />&nbsp;
+                        </td>
+                        <td>
+                            <asp:LinkButton ID="LinkButton1" runat="server" Text="退出" OnClick="exit_onClick"/>
+                            <asp:LinkButton ID="LinkButton2" runat="server" Text="修改密码" OnClick="changePwd_onClick"/>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <table style="margin-top: 40px; width: 100%;">
+                <tr>
+                    <td style="vertical-align: top; width: 130px;">
+                        <asp:Label runat="server" Text="2017.3.12 星期三" iD="time" Font-Size="11"/>
+                        <asp:LinkButton runat="server" Text="订单管理" Style="margin-left: 20px;" OnClick="orderMag_onClick"/>
+                        <asp:LinkButton runat="server" Text="商品管理" Style="margin-left: 20px;" OnClick="goodsMag_onCLick"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="vertical-align: top;">
+                        <asp:ContentPlaceHolder ID="ContentPlaceHolder" runat="server">
+                        </asp:ContentPlaceHolder>
+                    </td>
+                </tr>
+            </table>
+            <div id="Div1" runat="server" class="bottom">
+                <label>© 2017-2100 美美版权所有</label>
+            </div>
+        </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,77 @@
+﻿/**
+    登录界面公共样式
+    */
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    border:none;
+    text-decoration:none;
+    -webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+*:focus, *:active {
+	outline: none;
+	-moz-outline: none;
+	outline-style: none;
+	-moz-outline-style: none;
+	-webkit-outline: none;
+	-webkit-outline-style: none;
+}
+body {
+    background-color:rgba(244, 241, 241, 0.70);
+}
+.container {
+    width:60%;
+    margin:0 auto;
+    background:#ffffff;
+}
+
+/**
+    title部分
+    */
+.title h1{
+    width:100%;
+    text-align:center;
+    color:#FF4400;
+}
+.title a {
+    float:right;
+    font-size:14px;
+    margin-top:3%;
+}
+
+/**
+    内容部分
+    */
+.div_container {
+    background-color:#ffffff;
+    padding:30px 50px;
+    margin-top:10px;
+    height:80%;
+}
+
+/**
+    底部部分
+    */
+.bottom {
+    margin-top:50px;
+    text-align:center;
+    font-size:14px;
+}
+
+.line {
+    height:40px;
+    line-height:40px;
+    width:100%;
+}
+
+.btn {
+    padding:10px 0;
+    width:60%;
+    background-color:#FF4400;
+    color:#ffffff;
+}

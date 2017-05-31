@@ -1,0 +1,28 @@
+﻿/*中间内容*/
+.goodCart {
+    margin-top:20px;
+    width:100%;
+    background-color:#FFF;
+    padding:20px;
+}
+
+.line {
+    height:40px;
+    line-height:40px;
+    margin:0 20px;
+    text-align:center;
+    width:100%;
+}
+.line_left {
+    height:40px;
+    line-height:40px;
+    float:left;
+    margin-left:20px;
+    width:100%;
+}
+.line_right {
+    height:40px;
+    line-height:40px;
+    float:right;
+    width:100%;
+}

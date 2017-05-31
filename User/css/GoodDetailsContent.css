@@ -1,0 +1,36 @@
+﻿/*中间内容*/
+.contentGoodDetails {
+    margin-top:20px;
+    width:100%;
+    background-color:#FFF;
+}
+/*图片*/
+.image {
+    margin:20px;
+}
+
+.rightGoodsDetails {
+    float:left;
+    margin-top:10px;
+}
+.lineGoodsDetails {
+    height:50px;
+    line-height:50px;
+}
+.lineGoodsDetails .btnBuy {
+    padding:10px 40px;
+    background-color:#FFF;
+    color:#FF4400;
+    border:solid 1px #FF4400;
+}
+.lineGoodsDetails .btnAddCart {
+    padding:10px 40px;
+    background-color:#FF4400;
+    color:#ffffff;
+}
+.Num {
+    width:30px;
+    border:1px solid #c5c5c5;
+    text-align:center;
+}
+
